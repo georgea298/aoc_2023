@@ -8,6 +8,6 @@ lazy val root = project
   .in(file("."))
   .settings(
     name := "aoc-2023",
-    Compile / run / mainClass := Some("aoc2023.day1.run"),
+    Compile / run / mainClass := Some("aoc2023.day2.run"),
     libraryDependencies += "org.scalameta" %% "munit" % "0.7.29" % Test
   )
